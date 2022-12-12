@@ -276,32 +276,7 @@ function Findpage() {
                     role="tabpanel"
                     aria-labelledby="profile-tab"
                     tabindex="0"
-                  >
-                    <div>
-                      <form
-                        action="/pre"
-                        method="POST"
-                        enctype="multipart/form-data"
-                      >
-                        <div>
-                          <label for="image">Upload Image</label>
-                          <input
-                            value=""
-                            required
-                            id="image-selector"
-                            type={"file"}
-                            name="upload-image"
-                            accept="image/*"
-                            className="File-selector"
-                            onChange={handleImgUpload}
-                            disabled={!model || processing}
-                          />
-                        </div>
-                        <div>
-                          <button type="submit">Submit</button>
-                        </div>
-                      </form>
-                    </div>
+                  > 
                   </div>
                 </div>
               </span>
