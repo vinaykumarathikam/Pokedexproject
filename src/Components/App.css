@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+sign-form {
+  width: 50%;
+  color: white !important;
+}
+
+#display_image {  
+  background-position: center;
+  background-size: cover;
+}
+
+.main {
+  background-color: rgb(141, 141, 238);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.l1 {
+  float: right;
+}
+
+.l2 {
+  float: right;
+}
+
+.l21 {
+  float: right;
+  margin-right: 10px;
+  background-color: gold;
+}
+
+.b {
+  height: 210px;
+}
+
+.limg {
+  float: left;
+}
