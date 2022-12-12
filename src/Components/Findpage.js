@@ -250,12 +250,11 @@ function Findpage() {
                           const reader = new FileReader();
                           reader.addEventListener("load", () => {
                             document.querySelector(
-                              "#display_image"
+                              "#display_img"
                             ).style.backgroundImage = `url(${reader.result})`;
                           });
                           reader.readAsDataURL(e.currentTarget.files[0]);
-                        }}
-                        disabled={!model || processing}
+                        }} 
                       />
                       <button
                         type="button"
@@ -325,11 +324,12 @@ function Findpage() {
           <div className="row">
             <div
             class="col-4" 
-            id="display_image"
+            id="display_img"
               style={{ 
                 margin:'10px',
                 border:' 1px solid black',
                 height: "450px", 
+                backgroundSize:'cover',
                 // alignItems: "center",
                 // "text-align": "center",
                 // color: "black",
